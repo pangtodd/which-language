@@ -1,0 +1,23 @@
+.container {
+  margin-top: 2em;
+}
+
+img {
+  float: left;
+  margin-right: 15px;
+  border: 1px solid black;
+  width: 20%;
+  height: auto;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+}
+
+#python-info, #swift-info, #javascript-info {
+  margin-top: 2em;
+  padding: 1em;
+  border: 2px solid lightgray;
+  display: none;
+}
