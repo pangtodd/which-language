@@ -8,27 +8,28 @@ $(document).ready(function() {
     const q5Score = parseInt($("input:radio[name=language5]:checked").val());
     
     const score =q1Score+q2Score+q3Score+q4Score+q5Score;
-    console.log(score);
+
+    $("form#refresh").submit(function() {
+      location.reload(true);
+    });
+// business logic below
 
     if(score < 8) {
       $("#swift").show();
       $("#python").hide();
       $("#javaScript").hide();
-      // $("#lang").hide();
+      $("#intro").hide();
     } else if(score>12) {
       $("#python").show();
       $("#javaScript").hide();
       $("#swift").hide();
-      // $("#intro").hide();
+      $("#intro").hide();
     } else {
       $("#javaScript").show();
       $("#python").hide();
       $("#swift").hide();
-      // $("#intro").hide();
+      $("#intro").hide();
     }
   });
 });
 
-$("form#refresh").submit(function() {
-  location.reload(true);
-});

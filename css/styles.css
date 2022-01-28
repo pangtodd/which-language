@@ -16,8 +16,14 @@ img {
 }
 
 .btn {
-  background-color: black;
-  color: white;
+  background-color: darkblue;
+  color: rgb(213, 215, 216);
+}
+
+.questionBorder {
+  margin-top: 2em;
+  padding: 1em;
+  border: 2px solid darkblue;;
 }
 
 #python, #swift, #javaScript {

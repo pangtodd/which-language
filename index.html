@@ -8,99 +8,107 @@
   <title>which language?</title>
 </head>
 <body>
-  <div class= "container">
-    <div id ="intro">
+  <div class="container">
+    <div id="intro">
       <h1>Which programming language should I learn?</h1>
       <p>This common question is something that stumps everyone first considering getting into programming or coding. This simple quiz may help you make the decision- or learn more about which languages you may want to consider! Let's get into it:</p>
-      <h3>question one: which of the following statements do you agree with more?</h3>
       <form id="lang">
-        <div id= "questionOne">
-        <div class="radio">
-          <label>
-            <input type="radio" name="language1" value="1" checked>
-            I want to develop mobile applications- it is the future!
-          </label>
+        <div class="questionBorder">
+          <h3>Which of the following statements do you agree with more?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language1" value="1" checked>
+              I want to develop mobile applications- it is the future!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language1" value="3">
+              I want to work on software that will be used primarily on computers.
+            </label>
+            </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language1" value="3">
-            I want to work on software that will be used primarily on computers.
-          </label>
-        <h3>question two: what fits your personality better?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language2" value="1" checked>
-            I'm interested in design- both how something looks/feels, and how easy it is to use.
-          </label>
-        </div>
-      </div>
-        <div class= "radio">
-          <label>
-            <input type="radio" name="language2" value="3">
-            I'm more interested in getting a system to work, even if it isn't pretty.
-          </label>
-        </div>
-        <h3>question 3: based on past experience, which do you think of yourself as?</h3>
-        <div class= "radio">
-          <label>
-            <input type="radio" name="language3" value= "1" checked>
-            I've been a specialist, and again, design is important to me.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language3" value="2">
-            I'm more of a generalist, both are important, and I'm comfortable doing/learning about either.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language3" value="3">
-            I've been a specialist, more interested getting something to work "under the hood", again, I'm less concerned with how it looks.
-          </label>
-        </div>
-        <h3>question 4: Which of the following set do you prefer/use more often?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language4" value="1" checked>
-            iPhone/Mac
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language4" value="2">
-            combination of iPhone/PC, Android/Mac.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language4" value="3">
-            PC/Android, but I don't always use windows, and I've used custom ROMS on my Android.
-          </label>
-        </div>
-        <h3>question 5: Be honest: what does your room look like right now?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language5" value="1" checked>
-            Everything in its place and I just finished today's dusting.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language5" value="2">
-            It's tidy, but it's been a while since I last vacuumed.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language5" value="3">
-            Uh, the door is shut for a reason.
-          </label>
+        <div class="questionBorder">
+          <h3>What interests you more?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language2" value="1" checked>
+              Design- both how something looks/feels, and how easy it is to use.
+              </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language2" value="3">
+              Getting something to work or fixing something that is broken, even if it isn't pretty.
+              </label>
+            </div>
+          </div>
+          <div class="questionBorder">
+            <h3>Based on past experience, which do you think of yourself as?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="language3" value="1" checked>
+                I've been a specialist, interested in design and order.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="language3" value="2">
+                  I'm more of a generalist, both are important, and I'm comfortable doing/learning about either.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="language3" value="3">
+                  I've been a specialist, more interested getting something to work "under the hood" than making it look good.
+                </label>
+              </div>    
+          </div>
+          <div class="questionBorder">
+            <h3>Which of the following set do you prefer/use more often?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="language4" value="1" checked>
+                iPhone/Mac
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="language4" value="2">
+                combination of iPhone/PC, Android/Mac.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="language4" value="3">
+                PC/Android, but I don't always use windows, and I've used custom ROMS on my Android.
+              </label>
+            </div>
+          </div>
+          <div class="questionBorder">  
+            <h3>Be honest: what does your room look like right now?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="language5" value="1" checked>
+                Everything in its place and I just finished today's dusting.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="language5" value="2">
+                It's tidy, but it's been a while since I last vacuumed.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="language5" value="3">
+                Uh, the door is shut for a reason.
+              </label>
+            </div>
         </div>
         <button type="submit" class="btn">Ok, take me to the results!</button>
       </form>
-    </div> 
-
+    </div>
     <div id="swift">
       <h3>Swift</h3>
       <img src="img/swift.jpeg" alt="Swift logo">
@@ -109,7 +117,6 @@
         <button type="submit" class="btn">start over</button>
       </form>
     </div>
-
     <div id="javaScript">
       <h3>JavaScript</h3>
       <img src="img/javascript.png" alt="javascript logo">
