@@ -16,6 +16,7 @@ img {
 }
 
 .btn {
+  margin-top: 2em;
   background-color: darkblue;
   color: rgb(213, 215, 216);
 }

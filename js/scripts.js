@@ -6,7 +6,6 @@ $(document).ready(function() {
     const q3Score = parseInt($("input:radio[name=language3]:checked").val());
     const q4Score = parseInt($("input:radio[name=language4]:checked").val());
     const q5Score = parseInt($("input:radio[name=language5]:checked").val());
-    
     const score =q1Score+q2Score+q3Score+q4Score+q5Score;
 
     $("form#refresh").submit(function() {
