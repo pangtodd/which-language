@@ -23,6 +23,6 @@ img {
 #python, #swift, #javaScript {
   margin-top: 2em;
   padding: 1em;
-  border: 2px solid lightgray;
+  border: 2px solid darkblue;
   display: none;
 }

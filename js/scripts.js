@@ -14,7 +14,7 @@ $(document).ready(function() {
       $("#swift").show();
       $("#python").hide();
       $("#javaScript").hide();
-      // $("#intro").hide();
+      // $("#lang").hide();
     } else if(score>12) {
       $("#python").show();
       $("#javaScript").hide();
@@ -27,4 +27,8 @@ $(document).ready(function() {
       // $("#intro").hide();
     }
   });
+});
+
+$("form#refresh").submit(function() {
+  location.reload(true);
 });
