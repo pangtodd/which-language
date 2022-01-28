@@ -9,110 +9,112 @@
 </head>
 <body>
   <div class= "container">
-    <div class ="intro">
+    <div id ="intro">
       <h1>Which programming language should I learn?</h1>
       <p>This common question is something that stumps everyone first considering getting into programming or coding. This simple quiz may help you make the decision- or learn more about which languages you may want to consider! Let's get into it:</p>
       <h3>question one: which of the following statements do you agree with more?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language1" value="1">
-          I want to develop mobile applications- it is the future!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language1" value="3">
-          I want to work on software that will be used primarily on computers.
-        </label>
-      <h3>question two: what fits your personality better?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language2" value="1">
-          I'm interested in design- both how something looks/feels, and how easy it is to use.
-        </label>
-      </div>
-      <div class= "radio">
-        <label>
-          <input type="radio" name="language2" value="3">
-          I'm more interested in getting a system to work, even if it isn't pretty.
-        </label>
-      </div>
-      <h3>question 3: based on past experience, which do you think of yourself as?</h3>
-      <div class= "radio">
-        <label>
-          <input type="radio" name="language3" value= "1">
-          I've been a specialist, and again, design is important to me.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language3" value="2">
-          I'm more of a generalist, both are important, and I'm comfortable doing/learning about either.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language3" value="3">
-          I've been a specialist, more interested getting something to work "under the hood", again, I'm less concerned with how it looks.
-        </label>
-      </div>
-      <h3>question 4: Which of the following set do you prefer/use more often?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language4" value="1">
-          iPhone/Mac
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language4" value="2">
-          combination of iPhone/PC, Android/Mac.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language4" value="3">
-          PC/Android, but I don't always use windows, and I've used custom ROMS on my Android.
-        </label>
-      </div>
-      <h3>question 5: Be honest: what does your room look like right now?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language5" value="1">
-          Everything in its place and I just finished today's dusting.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language5" value="2">
-          It's tidy, but it's been a while since I last vacuumed.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language5" value="3">
-          Uh, the door is shut for a reason.
-        </label>
-      </div>
-      <button type="submit" class="btn">Ok, take me to the results!</button>
+      <form id=lang>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language1" value="1" checked>
+            I want to develop mobile applications- it is the future!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language1" value="3">
+            I want to work on software that will be used primarily on computers.
+          </label>
+        <h3>question two: what fits your personality better?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language2" value="1" checked>
+            I'm interested in design- both how something looks/feels, and how easy it is to use.
+          </label>
+        </div>
+        <div class= "radio">
+          <label>
+            <input type="radio" name="language2" value="3">
+            I'm more interested in getting a system to work, even if it isn't pretty.
+          </label>
+        </div>
+        <h3>question 3: based on past experience, which do you think of yourself as?</h3>
+        <div class= "radio">
+          <label>
+            <input type="radio" name="language3" value= "1" checked>
+            I've been a specialist, and again, design is important to me.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language3" value="2">
+            I'm more of a generalist, both are important, and I'm comfortable doing/learning about either.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language3" value="3">
+            I've been a specialist, more interested getting something to work "under the hood", again, I'm less concerned with how it looks.
+          </label>
+        </div>
+        <h3>question 4: Which of the following set do you prefer/use more often?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language4" value="1" checked>
+            iPhone/Mac
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language4" value="2">
+            combination of iPhone/PC, Android/Mac.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language4" value="3">
+            PC/Android, but I don't always use windows, and I've used custom ROMS on my Android.
+          </label>
+        </div>
+        <h3>question 5: Be honest: what does your room look like right now?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language5" value="1" checked>
+            Everything in its place and I just finished today's dusting.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language5" value="2">
+            It's tidy, but it's been a while since I last vacuumed.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language5" value="3">
+            Uh, the door is shut for a reason.
+          </label>
+        </div>
+        <button type="submit" class="btn">Ok, take me to the results!</button>
+      </form>
     </div>
+    
     <div id="swift">
       <h3>Swift</h3>
       <img src="img/swift.jpeg" alt="Swift logo">
       <p>You should consider Swift! According to their website, Swift is a robust and intuitive programming language created by Apple for building apps for iOS, Mac, Apple TV, and Apple Watch. It's designed to give developers more freedom than ever. Swift is easy to use and open source, so anyone with an idea can create something incredible. <br> <br> What does that really mean? Learning Swift will help position you to develop mobile apps primarily for iPhone/Mac products.</p>
     </div>
+
     <div id="javaScript">
-    <h3>JavaScript</h3>
-    <img src="img/javascript.png" alt="javascript logo">
-    <p>You should consider JavaScript! According to Wikipedia, 97% of all websites use JavaScript. It's a language required to pretty much anything on the web, so learning it is pretty key to getting into the tech industry. If you're not sure about whether or not you want to get in to the front end or back end of programming, committing to JavaScript will allow you the flexibilty to specialize later- or be a generalist.</p>
+      <h3>JavaScript</h3>
+      <img src="img/javascript.png" alt="javascript logo">
+      <p>You should consider JavaScript! According to Wikipedia, 97% of all websites use JavaScript. It's a language required to pretty much anything on the web, so learning it is pretty key to getting into the tech industry. If you're not sure about whether or not you want to get in to the front end or back end of programming, committing to JavaScript will allow you the flexibilty to specialize later- or be a generalist.</p>
     </div>
     <div id="python">
-    <h3>Python</h3>
-    <img src="img/python.jpeg" alt="python logo">
-    <p>You should consider Python! Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.<br><br>So what does that mean? It is easy to learn and is simple and powerful. It may not be very good at making attractive webpages, but it is very useful when sorting through data or automating tasks. Frequently used in data science and machine learning, Python is a great tool for people who like solving problems or working with data.<br><br>Also, between us, clean up your room and take a shower. Being good at fixing stuff doesn't give you a free pass on lack of organization or hygene.</p>
+      <h3>Python</h3>
+      <img src="img/python.jpeg" alt="python logo">
+      <p>You should consider Python! Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.<br><br>So what does that mean? It is easy to learn and is simple and powerful. It may not be very good at making attractive webpages, but it is very useful when sorting through data or automating tasks. Frequently used in data science and machine learning, Python is a great tool for people who like solving problems or working with data.<br><br>Also, between us, clean up your room and take a shower. Being good at fixing stuff doesn't give you a free pass on lack of organization or hygene.</p>
     </div>
-
-
   </div>
 </body>
 </html>
