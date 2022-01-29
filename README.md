@@ -12,7 +12,7 @@ Quiz: which programming language is for you?
 * JQuery
 * markdown
 
-## Description: Website that asks basic questions to provide basic advice on what programming language someone may want to puruse. This site does not constitute actual advice, it is strictly for educational purposes.
+## Description: Website that asks basic questions to provide basic advice on what programming language someone may want to puruse. This site does not constitute actual advice, it is strictly for educational purposes. It utilizes simple branching logic that applies a numeric value to quiz answers, and then displays a recommended language based on the score.
 
 
 ## Setup/Installation Requirements
@@ -21,11 +21,11 @@ Quiz: which programming language is for you?
 * via your terminmal, navigate to the directory you want to store my files in.
 * clone my git hub directory by typing or cutting pasting: "git clone https://github.com/pangtodd/portfolio.git" into your terminal
 * open files in browswer or code editor of your choice.
-* you can also view this website [here] (https://pangtodd.github.io/portfolio/) or you can cut and paste this into your browser: https://pangtodd.github.io/portfolio/
+* you can also view this website [here] (https://pangtodd.github.io/which-language/) or you can cut and paste this into your browser: https://pangtodd.github.io/which-language/
 
 ## Known Bugs
 
-* In scripts.js file, line 3: "event.preventDefault();" event shows as depreciated both in VScode and Chrome Developer Tools. Not sure why- I understand a variable had depreicated, but I'm not sure which one. Site seems to load/work okay.
+* As of 1/28/22, no known bugs.
 * If you notice mistakes or bugs, please email pang.todd@gmail.com
 
 ## License
