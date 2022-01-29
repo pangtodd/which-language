@@ -21,7 +21,7 @@ Quiz: which programming language is for you?
 * via your terminmal, navigate to the directory you want to store my files in.
 * clone my git hub directory by typing or cutting pasting: "git clone https://github.com/pangtodd/which-language.git" into your terminal
 * open files in browswer or code editor of your choice.
-* you can also view this website [here] (https://pangtodd.github.io/which-language/) or you can cut and paste this into your browser: https://pangtodd.github.io/which-language/
+* you can also view this website [here](https://pangtodd.github.io/which-language/) or you can cut and paste this into your browser: https://pangtodd.github.io/which-language/
 
 ## Known Bugs
 
