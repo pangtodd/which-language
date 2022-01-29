@@ -12,7 +12,7 @@ Quiz: which programming language is for you?
 * JQuery
 * markdown
 
-## Description: Website that asks basic questions to provide basic advice on what programming language someone may want to puruse. This site does not constitute actual advice, it is strictly for educational purposes. It utilizes simple branching logic that applies a numeric value to quiz answers, and then displays a recommended language based on the score.
+## Description: Website that asks basic questions to provide basic advice on what programming language someone may want to pursue. This site does not constitute actual advice, it is strictly for educational purposes. It utilizes simple branching logic that applies a numeric value to quiz answers, and then displays a recommended language based on the score.
 
 
 ## Setup/Installation Requirements
